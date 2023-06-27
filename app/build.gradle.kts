@@ -23,51 +23,6 @@ android {
         multiDexEnabled = true
     }
 
-    signingConfigs {
-        create("apkSignConfig") {
-            storeFile = file("hulk.jks")
-            storePassword = "hulk123"
-            keyAlias = "hulk"
-            keyPassword = "hulk123"
-            enableV1Signing = true
-            enableV2Signing = true
-            enableV3Signing = true
-            enableV4Signing = true
-        }
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            isShrinkResources = false
-            signingConfig = signingConfigs.getByName("apkSignConfig")
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-        debug {
-            isMinifyEnabled = false
-            isShrinkResources = false
-            signingConfig = signingConfigs.getByName("apkSignConfig")
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-    }
-
-    flavorDimensions("environment")
-    productFlavors {
-        create("Hulk") {
-            applicationId = "cn.zsmarter.hulk"
-        }
-        // 手机银行-生产包名
-        create("TFBank") {
-            applicationId = "com.ionicframework.cgbank122507"
-        }
-    }
-
     applicationVariants.all {
         outputs.all {
             (this as BaseVariantOutputImpl).outputFileName =
