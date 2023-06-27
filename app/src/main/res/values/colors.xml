@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="default_bg_color">#F5F5F9</color>
+    <color name="line_color">#DFE1E6</color>
+    <color name="blue">#5679BF</color>
+    <color name="gray_text">#9A9FB1</color>
+    <color name="black_secondary">#333333</color>
+
+    <color name="black_293040">#293040</color>
+    <color name="blue_477BEF">#477BEF</color>
+    <color name="blue_385598">#385598</color>
+    <color name="transparent_blue_477BEF">#00477BEF</color>
+    <color name="gray_A1A6B3">#A1A6B3</color>
+    <color name="gray_717787">#717787</color>
+    <color name="red_F79090">#F79090</color>
+    <color name="gray_DFE1E6">#DFE1E6</color>
+    <color name="gray_F5F5F9">#F5F5F9</color>
+
+    <color name="ic_blue_A1BAF0">#A1BAF0</color>
+    <color name="bg_blue_CBDAFB">#CBDAFB</color>
+    <color name="bg_gradual_F2F6FF">#F2F6FF</color>
+    <color name="bg_gradual_A9C2F9">#A9C2F9</color>
+</resources>

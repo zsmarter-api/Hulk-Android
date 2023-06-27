@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.zsmarter.hulk">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/hulk_logo_blue"
+        android:label="@string/app_name"
+        android:name=".App"
+        android:screenOrientation="portrait"
+        android:roundIcon="@drawable/hulk_logo_blue"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HulkDemo"
+        tools:replace="android:allowBackup">
+
+        <activity android:name="cn.zsmarter.hulk.activity.InitSetActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:launchMode="singleTop"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="cn.zsmarter.hulk.activity.MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:launchMode="singleTop" />
+
+        <activity android:name="cn.zsmarter.hulk.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:launchMode="singleTop" />
+
+        <activity android:name="cn.zsmarter.hulk.activity.LogActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            tools:ignore="LockedOrientationActivity" />
+
+
+        <!--Vivo Push开放平台中应用的appid 和api key-->
+        <meta-data
+            android:name="com.vivo.push.api_key"
+            android:value="d49ed8a39530197d9e4c1f45b7153f78"/>
+
+        <meta-data
+            android:name="com.vivo.push.app_id"
+            android:value="105543096"/>
+    </application>
+
+</manifest>

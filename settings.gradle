@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven {
+            url = uri("https://developer.huawei.com/repo/")
+        }
+    }
+}
+rootProject.name = "Hulk"
+include ':app'
+include ':hulk'
+include ':oppo-push'
+include ':huawei-push'
+include ':xiaomi-push'
+include ':vivo-push'
+include ':meizu-push'
+include ':fcm-push'

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Hulk</string>
+
+
+    <string name="journal">日志</string>
+    <string name="put_away">收起</string>
+    <string name="open">展开</string>
+    <string name="journal_default_hint">请先编辑并确认下方推送数据后，点击推送按钮即可建立ZTP SOCKET连接并发送用户信息</string>
+    <string name="push_param">推送数据</string>
+    <string name="update_user_info">更新用户信息</string>
+    <string name="push">推送</string>
+    <string name="connect">链接推送</string>
+    <string name="unconnected">断开链接</string>
+    <string name="msg_history">消息记录</string>
+    <string name="empty_msg_hint">暂未收到消息</string>
+    <string name="running">运行中</string>
+    <string name="save">保存</string>
+    <string name="setting">设置</string>
+    <string name="host">host</string>
+    <string name="port">port</string>
+    <string name="device_id">deviceId</string>
+    <string name="bundle">bundle</string>
+    <string name="appId">appId</string>
+    <string name="appSecret">appSecret</string>
+    <string name="platform">platform</string>
+    <string name="model">model</string>
+    <string name="version">version</string>
+    <string name="uid">uid</string>
+    <string name="alias">alias</string>
+    <string name="phone">phone</string>
+    <string name="location">location</string>
+    <string name="clear">清除</string>
+    <string name="skip">跳过</string>
+    <string name="please_enter_your_mobile_number">请输入手机号</string>
+    <string name="input_phone_hint">手机号将用于接收通知消息、短信消息</string>
+    <string name="cell_phone_number">手机号</string>
+    <string name="please_enter">请输入</string>
+    <string name="complete">完成</string>
+    <string name="start_experience">开始体验</string>
+    <string name="uid_hint">Hulk为用户生成接收消息通知的身份标识</string>
+    <string name="text_switch">切换</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="select_region">选择地区</string>
+    <string name="please_choice">请选择</string>
+    <string name="application">应用</string>
+    <string name="privacy_agreement">隐私协议</string>
+    <string name="hulk_privacy_agreement">《Hulk隐私政策》</string>
+    <string name="oneself_confirm">本人已阅读并同意</string>
+    <string name="designated_manufacturer">指定厂商</string>
+    <string name="no_designate">不指定</string>
+    <string name="refuse">拒绝</string>
+    <string name="email">email</string>
+    <string name="wechat">wechat</string>
+</resources>

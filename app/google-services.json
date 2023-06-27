@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820957652718",
+    "project_id": "hulk-8efd8",
+    "storage_bucket": "hulk-8efd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820957652718:android:15fb3bb4ff918c329335ff",
+        "android_client_info": {
+          "package_name": "cn.zsmarter.hulk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820957652718-v7ur3itqpsaoolf7gvm7n60fat0d9h0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0ZArSO-6akjMYqobNZJtUpToMYeh6INo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820957652718-v7ur3itqpsaoolf7gvm7n60fat0d9h0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
